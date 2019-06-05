@@ -3108,11 +3108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj",
+      "projectUniqueName": "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj",
       "projectName": "StatusMachine.Infra",
-      "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj",
+      "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj",
       "packagesPath": "C:\\Users\\epagnoca\\.nuget\\packages\\",
-      "outputPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Repository\\obj\\",
+      "outputPath": "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3132,8 +3132,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj": {
-              "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj"
+            "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj": {
+              "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj"
             }
           }
         }

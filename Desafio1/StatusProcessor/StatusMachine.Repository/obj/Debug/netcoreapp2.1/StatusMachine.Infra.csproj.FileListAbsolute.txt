@@ -22,3 +22,15 @@ C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Repository\o
 C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.csproj.CopyComplete
 C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.dll
 C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.pdb
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\bin\Debug\netcoreapp2.1\StatusMachine.Infra.deps.json
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\bin\Debug\netcoreapp2.1\StatusMachine.Infra.dll
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\bin\Debug\netcoreapp2.1\StatusMachine.Infra.pdb
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\bin\Debug\netcoreapp2.1\StatusMachine.Domain.dll
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\bin\Debug\netcoreapp2.1\StatusMachine.Domain.pdb
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.csprojAssemblyReference.cache
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.csproj.CoreCompileInputs.cache
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.AssemblyInfoInputs.cache
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.AssemblyInfo.cs
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.csproj.CopyComplete
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.dll
+C:\Cursos\NET Framework e Core\varejo\Desafio1\StatusProcessor\StatusMachine.Repository\obj\Debug\netcoreapp2.1\StatusMachine.Infra.pdb

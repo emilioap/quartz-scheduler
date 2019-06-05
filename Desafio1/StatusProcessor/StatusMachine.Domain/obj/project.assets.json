@@ -839,11 +839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj",
+      "projectUniqueName": "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj",
       "projectName": "StatusMachine.Domain",
-      "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj",
+      "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj",
       "packagesPath": "C:\\Users\\epagnoca\\.nuget\\packages\\",
-      "outputPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Domain\\obj\\",
+      "outputPath": "C:\\Cursos\\NET Framework e Core\\varejo\\Desafio1\\StatusProcessor\\StatusMachine.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

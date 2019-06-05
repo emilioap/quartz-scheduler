@@ -13,41 +13,37 @@ SET time_zone = "+00:00";
 -- Database: `varejo`
 --
 
-USE `varejo`;
+USE `varejo2`;
 
---Devemos adicionar a coluna IdStatus para a tabela ItemPedido, assim cada item do pedido terá seu próprio status:
+#Devemos adicionar a coluna IdStatus para a tabela ItemPedido, assim cada item do pedido terá seu próprio status:
 ALTER TABLE `itempedido`
 ADD `IdStatus` int(11) NOT NULL;
 
-
---Criar uma PROCEDURE para popular os novos IdStatus da tabela ItemPedido com os IdStatus respectivos da tabela Pedidos:
+#Popular os novos IdStatus da tabela ItemPedido com os IdStatus respectivos da tabela Pedidos:
 UPDATE itempedido i
 INNER JOIN pedido p ON i.IdPedido = p.IdPedido
 SET i.IdStatus =  p.IdStatus;
 
+#Devemos remover então a coluna IdStatus da tabela Pedido:
+ALTER TABLE  `pedido`
+DROP FOREIGN KEY `FK_StatusPedido_Pedido`;
 
---Devemos remover então a coluna IdStatus da tabela Pedido:
 ALTER TABLE  `pedido`
 DROP COLUMN `IdStatus`;
 
-
---Devemos incluir a coluna IdProduto na tabela HistoricoStatus também, assim cada produto do pedido terá sua própria movimentação/histórico:
+#Devemos incluir a coluna IdProduto na tabela HistoricoStatus também, assim cada produto do pedido terá sua própria movimentação/histórico:
 ALTER TABLE `historicostatus`
 ADD `IdProduto` int(11) NOT NULL;
 
-
---Devemos definir a coluna IdProduto também como PRIMARY KEY também nesta tabela:
-ALTER TABLE `historicostatus`
-ADD PRIMARY KEY (`IdProduto`);
+#Devemos definir a coluna IdProduto também como PRIMARY KEY também nesta tabela:
+#ALTER TABLE `historicostatus`
+#ADD PRIMARY KEY (`IdProduto`);
   
-  
---Ao invés de adicionarmos como FOREIGN KEY na tabela Pedido, devemos adicionar na tabela ItemPedido:
+#Ao invés de adicionarmos como FOREIGN KEY na tabela Pedido, devemos adicionar na tabela ItemPedido:
 ALTER TABLE `itempedido`
-  ADD CONSTRAINT `FK_StatusPedido_ItemPedido` FOREIGN KEY (`IdStatus`) REFERENCES `statuspedido` (`IdStatus`);
-COMMIT;
+ADD CONSTRAINT `FK_StatusPedido_ItemPedido` FOREIGN KEY (`IdStatus`) REFERENCES `statuspedido` (`IdStatus`);
 
-
---Por fim devemos atualizar a PROCEDURE ConsultarItensPedido, para que o Status exibido seja para cada item:
+#Por fim devemos atualizar a PROCEDURE ConsultarItensPedido, para que o Status exibido seja para cada item:
 DROP PROCEDURE IF EXISTS ConsultarItensPedido;
 
 DELIMITER $$
@@ -59,6 +55,7 @@ CREATE PROCEDURE `ConsultarItensPedido` (IN `IdPedido` INT)  BEGIN
 		INNER JOIN Produtos pr ON itp.IdProduto=pr.IdProduto
 	WHERE p.IdPedido= IdPedido;
 END$$
-DELIMITER;
+
+DELIMITER ;
 
 COMMIT;
