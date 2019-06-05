@@ -1,5 +1,15 @@
 # Robô Status Processor
 
+Sistema para verificação status pedidos com objetivo de alertar, através de Log em Console, sobre atraso na alteração de status com base no tempo máximo aceitável para cada status, através de um robô feito em Console Application, auto-executado a cada 20s.
+
+Tecnologias utilizadas:
+
+- .NET Core 2.1
+- Quartz
+- Dapper
+- LINQ
+- SQL
+
 ## Instruções de deploy - Desafio 1
 
 - Baixar o conteúdo da pasta Desafio1;
