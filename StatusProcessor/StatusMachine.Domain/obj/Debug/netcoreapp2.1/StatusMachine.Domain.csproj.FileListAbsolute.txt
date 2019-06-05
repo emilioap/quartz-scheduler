@@ -7,3 +7,12 @@ C:\Cursos\NET Framework e Core\Processor\StatusProcessor\StatusMachine.Domain\ob
 C:\Cursos\NET Framework e Core\Processor\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.dll
 C:\Cursos\NET Framework e Core\Processor\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.pdb
 C:\Cursos\NET Framework e Core\Processor\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.csprojAssemblyReference.cache
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\bin\Debug\netcoreapp2.1\StatusMachine.Domain.deps.json
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\bin\Debug\netcoreapp2.1\StatusMachine.Domain.dll
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\bin\Debug\netcoreapp2.1\StatusMachine.Domain.pdb
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.csprojAssemblyReference.cache
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.csproj.CoreCompileInputs.cache
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.AssemblyInfoInputs.cache
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.AssemblyInfo.cs
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.dll
+C:\Cursos\NET Framework e Core\varejo\StatusProcessor\StatusMachine.Domain\obj\Debug\netcoreapp2.1\StatusMachine.Domain.pdb

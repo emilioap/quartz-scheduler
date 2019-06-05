@@ -5400,11 +5400,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cursos\\NET Framework e Core\\Processor\\StatusProcessor\\StatusMachine.Processor\\StatusMachine.Application.csproj",
+      "projectUniqueName": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Processor\\StatusMachine.Application.csproj",
       "projectName": "StatusMachine.Application",
-      "projectPath": "C:\\Cursos\\NET Framework e Core\\Processor\\StatusProcessor\\StatusMachine.Processor\\StatusMachine.Application.csproj",
+      "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Processor\\StatusMachine.Application.csproj",
       "packagesPath": "C:\\Users\\epagnoca\\.nuget\\packages\\",
-      "outputPath": "C:\\Cursos\\NET Framework e Core\\Processor\\StatusProcessor\\StatusMachine.Processor\\obj\\",
+      "outputPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Processor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5424,11 +5424,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Cursos\\NET Framework e Core\\Processor\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj": {
-              "projectPath": "C:\\Cursos\\NET Framework e Core\\Processor\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj"
+            "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj": {
+              "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Domain\\StatusMachine.Domain.csproj"
             },
-            "C:\\Cursos\\NET Framework e Core\\Processor\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj": {
-              "projectPath": "C:\\Cursos\\NET Framework e Core\\Processor\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj"
+            "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj": {
+              "projectPath": "C:\\Cursos\\NET Framework e Core\\varejo\\StatusProcessor\\StatusMachine.Repository\\StatusMachine.Infra.csproj"
             }
           }
         }

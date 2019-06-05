@@ -24,31 +24,28 @@ namespace StatusMachine.Domain
 
             foreach (var item in statusEntity)
             {
-                if(item.IdStatus != StatusEnum.Entregue || item.IdStatus != StatusEnum.Cancelado)
+                switch (item.IdStatus)
                 {
-                    switch (item.IdStatus)
-                    {
-                        case StatusEnum.PedidoCriado:
-                            if ((DateTime.Now - item.DataStatus).TotalMinutes > 1)
-                                SendAlert(item);
-                            break;
-                        case StatusEnum.AnaliseCredito:
-                            if ((DateTime.Now - item.DataStatus).TotalMinutes > 10)
-                                SendAlert(item);
-                            break;
-                        case StatusEnum.PagamentoAprovado:
-                            if ((DateTime.Now - item.DataStatus).TotalHours > 2)
-                                SendAlert(item);
-                            break;
-                        case StatusEnum.PagamentoRecusado:
-                            if ((DateTime.Now - item.DataStatus).TotalDays > 3)
-                                SendAlert(item);
-                            break;
-                        default:
-                            if ((DateTime.Now - item.DataStatus).TotalDays > 2)
-                                SendAlert(item);
-                            break;
-                    }
+                    case StatusEnum.PedidoCriado:
+                        if ((DateTime.Now - item.DataStatus).TotalMinutes > 1)
+                            SendAlert(item);
+                        break;
+                    case StatusEnum.AnaliseCredito:
+                        if ((DateTime.Now - item.DataStatus).TotalMinutes > 10)
+                            SendAlert(item);
+                        break;
+                    case StatusEnum.PagamentoAprovado:
+                        if ((DateTime.Now - item.DataStatus).TotalHours > 2)
+                            SendAlert(item);
+                        break;
+                    case StatusEnum.PagamentoRecusado:
+                        if ((DateTime.Now - item.DataStatus).TotalDays > 3)
+                            SendAlert(item);
+                        break;
+                    default:
+                        if ((DateTime.Now - item.DataStatus).TotalDays > 2)
+                            SendAlert(item);
+                        break;
                 }
             }
 
