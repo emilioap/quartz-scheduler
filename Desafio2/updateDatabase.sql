@@ -19,14 +19,12 @@ USE `varejo`;
 ALTER TABLE `itempedido`
 ADD `IdStatus` int(11) NOT NULL;
 
+
 --Criar uma PROCEDURE para popular os novos IdStatus da tabela ItemPedido com os IdStatus respectivos da tabela Pedidos:
-DELIMITER $$
-CREATE PROCEDURE `Populate`
-BEGIN
-    CREATE TEMPORARY TABLE temp_ItemPedido AS SELECT * FROM pedido FOR UPDATE;
-    UPDATE itempedido SET IdStatus = (SELECT IdStatus from temp_EmailQueue);
-END$$
-DELIMITER;
+UPDATE itempedido i
+INNER JOIN pedido p ON i.IdPedido = p.IdPedido
+SET i.IdStatus =  p.IdStatus;
+
 
 --Devemos remover então a coluna IdStatus da tabela Pedido:
 ALTER TABLE  `pedido`
