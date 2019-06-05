@@ -22,6 +22,10 @@ SET time_zone = "+00:00";
 -- Database: `varejo`
 --
 
+CREATE DATABASE `varejo`;
+
+USE `varejo`;
+
 DELIMITER $$
 --
 -- Procedures
