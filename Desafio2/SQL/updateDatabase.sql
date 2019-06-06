@@ -13,7 +13,7 @@ SET time_zone = "+00:00";
 -- Database: `varejo`
 --
 
-USE `varejo2`;
+USE `varejo`;
 
 #Devemos adicionar a coluna IdStatus para a tabela ItemPedido, assim cada item do pedido terá seu próprio status:
 ALTER TABLE `itempedido`
