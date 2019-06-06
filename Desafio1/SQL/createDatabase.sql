@@ -21,10 +21,10 @@ SET time_zone = "+00:00";
 --
 -- Database: `varejo`
 --
-DROP DATABASE IF EXISTS `varejo2`;
-CREATE DATABASE `varejo2`;
+DROP DATABASE IF EXISTS `varejo`;
+CREATE DATABASE `varejo`;
 
-USE `varejo2`;
+USE `varejo`;
 
 DELIMITER $$
 --
