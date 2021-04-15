@@ -5,6 +5,7 @@ Scheduler made with .NET Core to check orders status for prevent delivery delays
 Features:
 
 - Factory Pattern
+- Topshelf
 - Quartz (scheduler)
 - Dapper ORM With MySQL
 
