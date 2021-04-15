@@ -1,25 +1,23 @@
-# Robô Status Processor
+# Description
 
-Sistema para verificação status pedidos com objetivo de alertar, através de Log em Console, sobre atraso na alteração de status com base no tempo máximo aceitável para cada status, através de um robô feito em Console Application, auto-executado a cada 20s.
+Scheduler made with .NET Core to check orders status to prevent delivery delays, based on the maximum acceptable time for each status.
 
-Tecnologias utilizadas:
+Features:
 
-- .NET Core 2.1
-- Quartz
-- Dapper
-- LINQ
-- SQL
+- Factory Pattern
+- Quartz (scheduler)
+- Dapper ORM With MySQL
 
-## Instruções de deploy - Desafio 1
+## Installation:
 
-- Baixar o conteúdo da pasta Desafio1;
-- Configurar a **connectionString** dentro arquivo **appSettings.json** de acordo com seu banco MySQL.
-- Executar o script **createDatabase.sql** contido na pasta Desafio1/SQL/ em seu banco MySQL.
-- Se necessário, alterar o **DEFINER**, para as duas procedures do arquivo sql.
-- Realizar build na solution contida na pasta **StatusProcessor** e rodar a aplicação.
+1. Clone the Repo and acess the folder named **Desafio1**;
+2. Configure your **connectionString** in **appSettings.json** according to your MySQL instance.
+3. Execute the script named **createDatabase.sql** , inside the folder SQL.
 
-## Instruções de deploy - Desafio 2
+## Running
 
-- Executar o script **updateDatabase.sql** contido na pasta Desafio2/SQL/ em seu banco MySQL.
+Go to folder **StatusProcessor** and run:
 
-> **Nota :** O script SQL foi adaptado de SQL Server para MySQL.
+ ```bash
+$ dotnet run
+```
