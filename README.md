@@ -1,6 +1,6 @@
 # Description
 
-Scheduler made with .NET Core to check orders status to prevent delivery delays, based on the maximum acceptable time for each status.
+Scheduler made with .NET Core to check orders status for prevent delivery delays, based on the maximum acceptable time for each status.
 
 Features:
 
